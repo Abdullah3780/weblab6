@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Lab 2</title>
+    </head>
+
+    <body>
+        <h1>Getting Information</h1>
+        <form action="#" method="post">
+            <table border="1">
+                <tr>
+                    <td>First Name <br><br>
+                        <input placeholder="Enter your name" type="text">
+                    </td>
+                    <td>Card Type <br><br>
+                        <input type="radio" id="VISA" name="card_type" value="VISA">
+                        <label for="VISA">VISA</label>
+                        <input type="radio" id="MasterCard" name="card_type" value="MasterCard">
+                        <label for="MasterCard">MasterCard</label>
+                        <input type="radio" id="AMEX" name="card_type" value="AMEX">
+                        <label for="AMEX">AMEX</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name <br><br>
+                        <input type="text" placeholder="Last Name Only">
+                    </td>
+                    <td>Time <br><br>
+                        <input type="time"> <br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth <br><br>
+                        <input type="date">
+                    </td>
+                    <td rowspan="3">Video Tutorial <br><br>
+                        <video width="320" height="240" controls>
+                            <source src="masha.mp4" type="video/mp4">
+                            <source src="masha.ogg" type="video/ogg">
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email <br><br>
+                        <input type="email" placeholder="someone@mail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>URL <br><br>
+                        <input type="url" placeholder="https://somthing.com" target="_blnak">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telephone <br><br>
+                        <input type="tel" placeholder="+1 000 00000">
+                    </td>
+                    <td>Audio Tutorial <br><br>
+                        <audio controls>
+                            <source src="meow.ogg" type="audio/ogg">
+                            <source src="meow.mp3" type="audio/mpeg">
+                            Your Browser doesn't support mp3
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Shoesize<br><br>
+                        <input type="number">
+                    </td>
+                    <td>
+                        <input type="submit" name="submit">
+                        <input type="reset" name="reset">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Flying Skill Level (1 low - 100 High) <br><br>
+                        <input type="range">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
